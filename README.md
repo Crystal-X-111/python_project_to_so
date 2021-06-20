@@ -5,24 +5,20 @@
 ### 3 通过这种方式把python工程编译发布，可以有效地保护python源码不被看到。
 
 # wheel包编译
-`
+```bash
 ./build_wheel
-`
+```
 
 # wheel包安装
-`
+```bash
 pip3 install maidabu-0.1-py3-none-any.whl
-`
+```
 
 # 使用安装后的包
-`python3`
-
-`from maidabu.main_module import TestModule`
-
-`testmodule = TestModule()`
-
-`testmodule.test_2()`
-
-`testmodule.test_1() `
-
-
+```bash
+python3
+from maidabu.main_module import TestModule
+testmodule = TestModule()
+testmodule.test_2()
+testmodule.test_1() 
+```
